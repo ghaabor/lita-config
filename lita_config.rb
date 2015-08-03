@@ -49,3 +49,4 @@ Lita.configure do |config|
 
   config.handlers.urban_dictionary.max_response_size = 5
 end
+
