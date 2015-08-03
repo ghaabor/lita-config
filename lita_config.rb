@@ -44,7 +44,8 @@ Lita.configure do |config|
   end
 
   config.handlers.slack_karma_sync.user_term_normalizer = normalized_karma_user_term
-
+  
+  # Giphy public api key
   config.handlers.giphy.api_key = "dc6zaTOxFJmzC"
 
   config.handlers.urban_dictionary.max_response_size = 5
